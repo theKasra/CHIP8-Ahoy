@@ -159,19 +159,13 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h" />
     <ClInclude Include="src\chip8.h" />
     <ClInclude Include="vendor\include\raylib.h" />
     <ClInclude Include="vendor\include\raymath.h" />
     <ClInclude Include="vendor\include\rlgl.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="CHIP8-Ahoy.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="C:\Users\nikpardaz\Desktop\icon.ico" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+
 </Project>
